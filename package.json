@@ -1,0 +1,15 @@
+{
+  "name": "gulp-insert",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "prestart": "gulp",
+    "start": "http-server dist"
+  },
+  "author": "Josiah Burchard",
+  "license": "ISC"
+}
